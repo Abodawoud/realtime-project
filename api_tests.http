@@ -1,0 +1,28 @@
+GET http://localhost:8000/api/v1/users/
+
+###
+GET http://localhost:8000/api/v1/users/6697fa0a6b42352400da1735
+
+###
+POST http://localhost:8000/api/v1/users?username=johndoe&email=johndoe@example.com
+Content-Type: application/json
+
+{}
+
+###
+POST http://localhost:8000/api/v1/users?username=Dod&email=yousefabodawoud@gmail.com
+Content-Type: application/json
+
+{}
+
+###
+POST http://localhost:8000/api/v1/users?username=Abeer&email=abeer@gmail.com
+Content-Type: application/json
+
+{}
+
+###
+GET http://localhost:8000/api/v1/messages/
+
+###
+GET http://localhost:8000/api/v1/messages/?senderId=6697fa0a6b42352400da1735&recipientId=6697d92e41c47e0da1b66711
